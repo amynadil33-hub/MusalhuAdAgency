@@ -92,9 +92,9 @@ const whyChooseUs = [
 ];
 
 const stats = [
-  { value: '150+', label: 'Projects Delivered' },
+  { value: '50+', label: 'Projects Delivered' },
   { value: '50+', label: 'Happy Clients' },
-  { value: '7', label: 'Days Average Launch' },
+  { value: '3', label: 'Days Average Launch' },
   { value: '95%', label: 'Client Retention' },
 ];
 
