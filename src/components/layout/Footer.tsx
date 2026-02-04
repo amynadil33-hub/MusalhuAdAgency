@@ -105,7 +105,7 @@ export function Footer() {
                   href="mailto:hello@musalhu-advertising.com"
                   className="text-white/60 text-sm hover:text-violet-400 transition-colors"
                 >
-                  hello@
+                  hello@musalhu-advertising.com
                 </a>
               </li>
               <li className="flex items-center gap-3">
