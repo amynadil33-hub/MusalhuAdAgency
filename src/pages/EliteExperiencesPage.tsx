@@ -44,7 +44,7 @@ const services = [
 
 const testimonials = [
   {
-    quote: "HopAgency delivered an unforgettable New Year's Eve experience. The production quality was world-class.",
+    quote: "Musalhu Advertising delivered an unforgettable New Year's Eve experience. The production quality was world-class.",
     author: "Resort Manager",
     company: "5-Star Maldives Resort",
   },

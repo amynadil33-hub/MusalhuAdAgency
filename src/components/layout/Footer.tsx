@@ -36,7 +36,7 @@ export function Footer() {
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-6">
               <RabbitEars size="md" />
-              <span className="font-sora font-bold text-xl text-white">HopAgency</span>
+              <span className="font-sora font-bold text-xl text-white">Musalhu Advertising</span>
             </Link>
             <p className="text-white/60 text-sm leading-relaxed mb-6">
               A Maldivian marketing, advertising & event management agency built for speed, strategy, and scale.
@@ -102,19 +102,19 @@ export function Footer() {
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-violet-400 flex-shrink-0" />
                 <a
-                  href="mailto:hello@hopagency.mv"
+                  href="mailto:hello@musalhu-advertising.com"
                   className="text-white/60 text-sm hover:text-violet-400 transition-colors"
                 >
-                  hello@hopagency.mv
+                  hello@
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-violet-400 flex-shrink-0" />
                 <a
-                  href="tel:+9607777777"
+                  href="tel:+9609403155"
                   className="text-white/60 text-sm hover:text-violet-400 transition-colors"
                 >
-                  +960 777 7777
+                  +960 940 3155
                 </a>
               </li>
             </ul>
@@ -126,7 +126,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-white/40 text-sm">
-            © {new Date().getFullYear()} HopAgency. All rights reserved.
+            © {new Date().getFullYear()} Musalhu Advertising. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <Link to="/privacy" className="text-white/40 text-sm hover:text-white/60 transition-colors">

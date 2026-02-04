@@ -91,7 +91,7 @@ export default function SignupPage() {
               Create Account
             </h1>
             <p className="font-inter text-white/60">
-              Sign up to get started with HopAgency
+              Sign up to get started with Musalhu Advertising
             </p>
           </div>
 

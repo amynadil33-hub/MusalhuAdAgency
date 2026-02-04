@@ -21,7 +21,7 @@ export default function TermsPage() {
               <section className="mb-8">
                 <h2 className="font-sora font-bold text-2xl text-white mb-4">1. Agreement to Terms</h2>
                 <p className="text-white/70 leading-relaxed">
-                  By accessing or using HopAgency's services, you agree to be bound by these Terms of Service. 
+                  By accessing or using Musalhu Advertising's services, you agree to be bound by these Terms of Service. 
                   If you disagree with any part of the terms, you may not access our services.
                 </p>
               </section>
@@ -31,7 +31,7 @@ export default function TermsPage() {
               <section className="mb-8">
                 <h2 className="font-sora font-bold text-2xl text-white mb-4">2. Services</h2>
                 <p className="text-white/70 leading-relaxed mb-4">
-                  HopAgency provides marketing, advertising, and event management services including but not limited to:
+                  Musalhu Advertising provides marketing, advertising, and event management services including but not limited to:
                 </p>
                 <ul className="list-disc list-inside text-white/70 space-y-2">
                   <li>Digital marketing and social media management</li>
@@ -80,8 +80,8 @@ export default function TermsPage() {
                 <h2 className="font-sora font-bold text-2xl text-white mb-4">5. Intellectual Property</h2>
                 <p className="text-white/70 leading-relaxed">
                   Upon full payment, clients receive ownership of deliverables created specifically for them. 
-                  HopAgency retains the right to showcase work in our portfolio unless otherwise agreed. 
-                  Pre-existing materials, templates, and tools remain the property of HopAgency.
+                  Musalhu Advertising retains the right to showcase work in our portfolio unless otherwise agreed. 
+                  Pre-existing materials, templates, and tools remain the property of Musalhu Advertising.
                 </p>
               </section>
 
@@ -100,7 +100,7 @@ export default function TermsPage() {
               <section className="mb-8">
                 <h2 className="font-sora font-bold text-2xl text-white mb-4">7. Limitation of Liability</h2>
                 <p className="text-white/70 leading-relaxed">
-                  HopAgency shall not be liable for any indirect, incidental, special, consequential, or 
+                  Musalhu Advertising shall not be liable for any indirect, incidental, special, consequential, or 
                   punitive damages resulting from your use of our services. Our total liability shall not 
                   exceed the amount paid for services in the preceding 12 months.
                 </p>
@@ -135,7 +135,7 @@ export default function TermsPage() {
                   For questions about these Terms of Service, please contact us at:
                 </p>
                 <p className="text-violet-400 mt-2">
-                  legal@hopagency.mv
+                  legal@musalhu-advertising.com
                 </p>
               </section>
             </div>

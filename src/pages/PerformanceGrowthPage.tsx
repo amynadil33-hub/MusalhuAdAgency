@@ -124,7 +124,7 @@ export default function PerformanceGrowthPage() {
               <div className="mb-6 pb-6 border-b border-white/10">
                 <div className="flex items-baseline gap-2">
                   <span className="font-sora font-bold text-4xl text-white">
-                    MVR 1,499
+                    MVR 3,999
                   </span>
                   <span className="text-white/50">/month</span>
                 </div>

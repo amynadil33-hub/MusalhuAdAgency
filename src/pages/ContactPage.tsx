@@ -108,7 +108,7 @@ export default function ContactPage() {
               
               <div className="space-y-6">
                 <a
-                  href="mailto:hello@hopagency.mv"
+                  href="mailto:hello@musalhu-advertising.com"
                   className="flex items-start gap-4 p-4 glass-card rounded-xl hover:bg-white/10 transition-colors"
                 >
                   <div className="w-12 h-12 rounded-xl bg-violet-500/20 flex items-center justify-center flex-shrink-0">
@@ -116,12 +116,12 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-poppins font-semibold text-white mb-1">Email</h3>
-                    <p className="font-inter text-white/60">hello@hopagency.mv</p>
+                    <p className="font-inter text-white/60">hello@musalhu-advertising.com</p>
                   </div>
                 </a>
 
                 <a
-                  href="tel:+9607777777"
+                  href="tel:+9609403155"
                   className="flex items-start gap-4 p-4 glass-card rounded-xl hover:bg-white/10 transition-colors"
                 >
                   <div className="w-12 h-12 rounded-xl bg-fuchsia-500/20 flex items-center justify-center flex-shrink-0">
@@ -129,12 +129,12 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-poppins font-semibold text-white mb-1">Phone</h3>
-                    <p className="font-inter text-white/60">+960 777 7777</p>
+                    <p className="font-inter text-white/60">+960 940 3155</p>
                   </div>
                 </a>
 
                 <a
-                  href="https://wa.me/9607777777"
+                  href="https://wa.me/9609403155"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-start gap-4 p-4 glass-card rounded-xl hover:bg-white/10 transition-colors"

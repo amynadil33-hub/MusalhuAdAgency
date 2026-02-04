@@ -36,7 +36,7 @@ export default function PaymentSuccessPage() {
           </h1>
 
           <p className="font-inter text-xl text-white/70 mb-8">
-            Thank you for choosing HopAgency. Your journey to digital success starts now.
+            Thank you for choosing Musalhu Advertising. Your journey to digital success starts now.
           </p>
 
           {/* Order Details */}

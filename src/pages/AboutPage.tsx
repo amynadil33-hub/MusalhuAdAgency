@@ -86,7 +86,7 @@ export default function AboutPage() {
           <div className="max-w-3xl">
             <RabbitEars size="lg" className="mb-6" />
             <h1 className="font-sora font-bold text-5xl sm:text-6xl text-white mb-6">
-              About <span className="text-gradient">HopAgency</span>
+              About <span className="text-gradient">Musalhu Advertising</span>
             </h1>
             <p className="font-inter text-xl text-white/70 mb-8">
               A Maldivian marketing, advertising & event management agency built for speed, strategy, and scale.
@@ -105,7 +105,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 font-inter text-white/70 leading-relaxed">
                 <p>
-                  HopAgency was born from a simple observation: Maldivian businesses deserve world-class 
+                  Musalhu Advertising was born from a simple observation: Maldivian businesses deserve world-class 
                   marketing that moves as fast as the digital landscape demands.
                 </p>
                 <p>

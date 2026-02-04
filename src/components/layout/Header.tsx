@@ -34,7 +34,7 @@ export function Header() {
               <RabbitEars size="md" className="group-hover:scale-110 transition-transform duration-300" />
             </div>
             <span className="font-sora font-bold text-xl text-white group-hover:text-gradient transition-all duration-300">
-              HopAgency
+              Musalhu Advertising
             </span>
           </Link>
 

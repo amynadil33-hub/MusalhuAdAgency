@@ -19,7 +19,7 @@ const subPackages = [
     target: 'Small businesses needing consistent visibility without high production costs.',
     usp: 'Never miss a day. Stay top-of-mind for your customers 24/7.',
     setupFee: 500,
-    monthlyFee: 299,
+    monthlyFee: 599,
     features: [
       '7 Posts per week (Cross-posted to IG, FB, and TikTok)',
       'Static graphics, curated stock images, and basic text-based videos',
@@ -36,7 +36,7 @@ const subPackages = [
     target: 'Brands looking to leverage the TikTok/Reels algorithm.',
     usp: 'Built for the algorithm. We turn views into followers.',
     setupFee: 750,
-    monthlyFee: 499,
+    monthlyFee: 999,
     features: [
       '7 Posts per week (Specifically optimized for Short-form Video)',
       '3 Original Reels/TikToks (using client-provided raw footage) + 4 High-quality Graphics',
@@ -54,7 +54,7 @@ const subPackages = [
     target: 'Established SMEs that want to outsource their entire digital department.',
     usp: 'Your dedicated marketing department for the price of one intern.',
     setupFee: 1500,
-    monthlyFee: 999,
+    monthlyFee: 1999,
     features: [
       '7 Posts per week across all 3 platforms (Unique formats for each)',
       '14 Stories per week (2 per day) to drive daily engagement',

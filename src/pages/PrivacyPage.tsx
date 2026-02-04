@@ -21,7 +21,7 @@ export default function PrivacyPage() {
               <section className="mb-8">
                 <h2 className="font-sora font-bold text-2xl text-white mb-4">1. Introduction</h2>
                 <p className="text-white/70 leading-relaxed">
-                  HopAgency ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy 
+                  Musalhu Advertising ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy 
                   explains how we collect, use, disclose, and safeguard your information when you visit our 
                   website or use our services.
                 </p>
@@ -104,7 +104,7 @@ export default function PrivacyPage() {
                   If you have questions about this Privacy Policy, please contact us at:
                 </p>
                 <p className="text-violet-400 mt-2">
-                  privacy@hopagency.mv
+                  privacy@musalhu-advertising.com
                 </p>
               </section>
             </div>

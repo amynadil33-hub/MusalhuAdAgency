@@ -27,8 +27,8 @@ function Header() {
         <div className="flex items-center justify-between h-20">
           <a href="#home" className="flex items-center gap-2 group">
             <RabbitEars size="md" className="group-hover:scale-110 transition-transform duration-300" />
-            <span className="font-bold text-xl text-white">HopAgency</span>
-          </a>
+            <span className="font-bold text-xl text-white"></span>
+          </a>Musalhu Advertising
           <nav className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (<a key={link.path} href={link.path} className="font-medium text-sm text-white/80 hover:text-violet-400 transition-colors">{link.name}</a>))}
           </nav>
@@ -52,14 +52,14 @@ function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           <div>
-            <div className="flex items-center gap-2 mb-6"><RabbitEars size="md" /><span className="font-bold text-xl text-white">HopAgency</span></div>
+            <div className="flex items-center gap-2 mb-6"><RabbitEars size="md" /><span className="font-bold text-xl text-white">Musalhu Advertising</span></div>
             <p className="text-white/60 text-sm">A Maldivian marketing, advertising & event management agency built for speed, strategy, and scale.</p>
           </div>
           <div><h4 className="font-semibold text-white mb-4">Services</h4><ul className="space-y-2 text-white/60 text-sm"><li><a href="#packages" className="hover:text-violet-400">Digital Launchpad</a></li><li><a href="#packages" className="hover:text-violet-400">Performance Growth</a></li><li><a href="#packages" className="hover:text-violet-400">Elite Experiences</a></li></ul></div>
           <div><h4 className="font-semibold text-white mb-4">Company</h4><ul className="space-y-2 text-white/60 text-sm"><li><a href="#about" className="hover:text-violet-400">About Us</a></li><li><a href="#contact" className="hover:text-violet-400">Contact</a></li></ul></div>
-          <div><h4 className="font-semibold text-white mb-4">Contact</h4><ul className="space-y-3 text-white/60 text-sm"><li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-violet-400" />Malé, Maldives</li><li className="flex items-center gap-2"><Mail className="w-4 h-4 text-violet-400" />hello@hopagency.mv</li><li className="flex items-center gap-2"><Phone className="w-4 h-4 text-violet-400" />+960 777 7777</li></ul></div>
+          <div><h4 className="font-semibold text-white mb-4">Contact</h4><ul className="space-y-3 text-white/60 text-sm"><li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-violet-400" />Malé, Maldives</li><li className="flex items-center gap-2"><Mail className="w-4 h-4 text-violet-400" />hello@musalhu-advertising.com</li><li className="flex items-center gap-2"><Phone className="w-4 h-4 text-violet-400" />+960 940 3155</li></ul></div>
         </div>
-        <div className="border-t border-white/10 mt-12 pt-8 text-center text-white/40 text-sm">© {new Date().getFullYear()} HopAgency. All rights reserved.</div>
+        <div className="border-t border-white/10 mt-12 pt-8 text-center text-white/40 text-sm">© {new Date().getFullYear()} Musalhu <Advertising></Advertising>. All rights reserved.</div>
       </div>
     </footer>
   );
@@ -162,7 +162,7 @@ export default function AppLayout() {
           <RabbitEars size="lg" className="mx-auto mb-8" />
           <h2 className="font-bold text-4xl sm:text-5xl lg:text-6xl text-white mb-6">Ready to <span className="bg-clip-text text-transparent bg-gradient-to-r from-violet-500 via-fuchsia-500 to-cyan-400">hop ahead?</span></h2>
           <p className="text-xl text-white/70 mb-10">Let's build something extraordinary together. Your brand deserves to move fast.</p>
-          <a href="mailto:hello@hopagency.mv" className="group inline-flex items-center gap-3 px-10 py-5 bg-gradient-to-r from-violet-600 via-fuchsia-600 to-pink-500 rounded-full font-bold text-lg text-white hover:-translate-y-2 transition-transform shadow-lg shadow-violet-500/30">Start Your Project <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" /></a>
+          <a href="mailto:hello@musalhu-advertising.com" className="group inline-flex items-center gap-3 px-10 py-5 bg-gradient-to-r from-violet-600 via-fuchsia-600 to-pink-500 rounded-full font-bold text-lg text-white hover:-translate-y-2 transition-transform shadow-lg shadow-violet-500/30">Start Your Project <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" /></a>
         </div>
       </section>
 
