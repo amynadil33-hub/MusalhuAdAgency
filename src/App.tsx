@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "@/components/theme-provider";
 import { AuthProvider } from "@/lib/auth";
+
 import Index from "./pages/Index";
 import AboutPage from "./pages/AboutPage";
 import PackagesPage from "./pages/PackagesPage";
@@ -14,8 +15,12 @@ import EliteExperiencesPage from "./pages/EliteExperiencesPage";
 import ContactPage from "./pages/ContactPage";
 import PrivacyPage from "./pages/PrivacyPage";
 import TermsPage from "./pages/TermsPage";
+
 import LoginPage from "./pages/LoginPage";
 import SignupPage from "./pages/SignupPage";
+import VerifyEmail from "./pages/VerifyEmail";
+import AuthCallback from "./pages/AuthCallback";
+
 import DashboardPage from "./pages/DashboardPage";
 import PaymentPage from "./pages/PaymentPage";
 import PaymentSuccessPage from "./pages/PaymentSuccessPage";
@@ -32,6 +37,7 @@ const App = () => (
           <Sonner />
           <BrowserRouter>
             <Routes>
+              {/* Public pages */}
               <Route path="/" element={<Index />} />
               <Route path="/about" element={<AboutPage />} />
               <Route path="/packages" element={<PackagesPage />} />
@@ -50,11 +56,19 @@ const App = () => (
               <Route path="/contact" element={<ContactPage />} />
               <Route path="/privacy" element={<PrivacyPage />} />
               <Route path="/terms" element={<TermsPage />} />
+
+              {/* Auth */}
               <Route path="/login" element={<LoginPage />} />
               <Route path="/signup" element={<SignupPage />} />
+              <Route path="/verify-email" element={<VerifyEmail />} />
+              <Route path="/auth/callback" element={<AuthCallback />} />
+
+              {/* App */}
               <Route path="/dashboard" element={<DashboardPage />} />
               <Route path="/payment" element={<PaymentPage />} />
               <Route path="/payment-success" element={<PaymentSuccessPage />} />
+
+              {/* Fallback */}
               <Route path="*" element={<NotFound />} />
             </Routes>
           </BrowserRouter>
