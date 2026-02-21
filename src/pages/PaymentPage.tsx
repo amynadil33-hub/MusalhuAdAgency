@@ -24,25 +24,25 @@ const packageData: Record<string, PackageInfo> = {
     id: "daily-presence",
     name: "Digital Launchpad – Daily Presence",
     setupFee: 500,
-    monthlyFee: 299,
+    monthlyFee: 599,
   },
   "viral-growth": {
     id: "viral-growth",
     name: "Digital Launchpad – Viral Growth",
     setupFee: 750,
-    monthlyFee: 499,
+    monthlyFee: 999,
   },
   "full-service-digital": {
     id: "full-service-digital",
     name: "Digital Launchpad – Full-Service Digital Office",
     setupFee: 1500,
-    monthlyFee: 999,
+    monthlyFee: 1999,
   },
   "performance-growth": {
     id: "performance-growth",
     name: "Performance Growth",
     setupFee: 2500,
-    monthlyFee: 1499,
+    monthlyFee: 3999,
   },
 };
 
